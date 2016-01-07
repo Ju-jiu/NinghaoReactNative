@@ -10,6 +10,7 @@ import DatePickerIOSDemo from './app/Components/DatePickerIOSDemo';
 import ModalDemo from './app/Components/ModalDemo';
 import PickerIOSDemo from './app/Components/PickerIOSDemo';
 import ProgressViewIOSDemo from './app/Components/ProgressViewIOSDemo';
+import SegmentedControlIOSDemo from './app/Components/SegmentedControlIOSDemo';
 
 var {
   AppRegistry,
@@ -28,7 +29,7 @@ class NinghaoReactNative extends React.Component {
           padding: 30,
           paddingTop: 60,
       }]}>
-        <ProgressViewIOSDemo />
+        <SegmentedControlIOSDemo />
       </View>
     );
   }
