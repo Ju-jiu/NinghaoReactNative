@@ -1,5 +1,5 @@
 /**
- * Ninghao.net
+ * React Native Demo by ninghao.net
  * https://github.com/ninghao/NinghaoReactNative
  */
 'use strict';
@@ -27,11 +27,18 @@ class NinghaoReactNative extends React.Component {
 
   render() {
     return (
-      <View style={[styles.container, {
-          padding: 30,
-          paddingTop: 60,
-      }]}>
-        <SwitchDemo />
+      <View style={[styles.container, {padding: 30, paddingTop: 60,}]}>
+        {
+          <Text>React Native Demo by ninghao.net ：）</Text>
+
+          // <DatePickerIOSDemo />
+          // <ModalDemo />
+          // <PickerIOSDemo />
+          // <ProgressViewIOSDemo />
+          // <SegmentedControlIOSDemo />
+          // <SliderIOSDemo />
+          // <SwitchDemo />
+        }
       </View>
     );
   }
