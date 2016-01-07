@@ -9,26 +9,14 @@ let {
 } = React;
 
 class DatePickerIOSDemo extends React.Component {
-  static defaultProps = {
-    date: new Date()
-  }
-
   constructor(props) {
     super(props);
-
-    this.state = {
-      date: this.props.date
-    }
   }
 
   render() {
     return (
       <View>
-        <DatePickerIOS
-          onDateChange={(date) => this.setState({date})}
-          date={this.state.date}
-          mode="datetime"
-        />
+        <Text>DatePickerIOS</Text>
       </View>
     );
   }
