@@ -5,7 +5,6 @@ import React from 'react-native';
 let {
   Text,
   View,
-  ProgressViewIOS,
 } = React;
 
 class ProgressViewIOSDemo extends React.Component {
@@ -16,11 +15,7 @@ class ProgressViewIOSDemo extends React.Component {
   render() {
     return (
       <View>
-        <ProgressViewIOS
-          progressTintColor="#6435c9"
-          trackTintColor="#dfd0ff"
-          progress={0.3}
-        />
+        <Text>ProgressViewIOS</Text>
       </View>
     );
   }
