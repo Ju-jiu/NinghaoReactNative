@@ -8,6 +8,7 @@ import React from 'react-native';
 import styles from './app/Styles/Main';
 import DatePickerIOSDemo from './app/Components/DatePickerIOSDemo';
 import ModalDemo from './app/Components/ModalDemo';
+import PickerIOSDemo from './app/Components/PickerIOSDemo';
 
 var {
   AppRegistry,
@@ -26,7 +27,7 @@ class NinghaoReactNative extends React.Component {
           padding: 30,
           paddingTop: 60,
       }]}>
-        <ModalDemo />
+        <PickerIOSDemo />
       </View>
     );
   }
