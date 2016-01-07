@@ -11,6 +11,7 @@ import ModalDemo from './app/Components/ModalDemo';
 import PickerIOSDemo from './app/Components/PickerIOSDemo';
 import ProgressViewIOSDemo from './app/Components/ProgressViewIOSDemo';
 import SegmentedControlIOSDemo from './app/Components/SegmentedControlIOSDemo';
+import SliderIOSDemo from './app/Components/SliderIOSDemo';
 
 var {
   AppRegistry,
@@ -29,7 +30,7 @@ class NinghaoReactNative extends React.Component {
           padding: 30,
           paddingTop: 60,
       }]}>
-        <SegmentedControlIOSDemo />
+        <SliderIOSDemo />
       </View>
     );
   }
